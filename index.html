@@ -9,8 +9,8 @@
 <body>
  
   <form id="loginForm" action="action_page.php" method="post" onsubmit="return validateForm()">
-    <div class="imgcontainer">
-        <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    <div class="signIn">
+        <h2>Sign In</h2>
     </div>
   
     <div class="container">
@@ -24,14 +24,14 @@
         <div id="pswError" class="error">Password must be at least 8 characters long.</div>
         <div id="pswEmptyError" class="error">Please enter your password.</div>
   
-        <button type="submit">Login</button>
+        <button type="submit">SIGN IN</button>
         <label>
             <input type="checkbox" checked="checked" name="remember"> Remember me
         </label>
     </div>
   
     <div class="container" style="background-color:#f1f1f1">
-        <button type="button" class="cancelbtn">Cancel</button>
+        <button type="button" class="cancelbtn"><a href="home.html">Cancel</a></button>
         <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
 </form>
