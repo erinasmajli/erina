@@ -219,7 +219,7 @@ p{
     position: relative;
     text-align: center;
 }
-.newsletter input{
+.newsletter #email{
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 50px;
@@ -228,7 +228,9 @@ p{
     color: #333;
     outline: none;
 }
-
+.newsletter #submit{
+    padding: 5px 20px;
+}
 
 .footer {
     background-color: #323436;
